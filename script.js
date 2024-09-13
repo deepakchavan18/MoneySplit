@@ -16,5 +16,5 @@ function calculateSplitAmount(amount, people) {
 }
 
 function displayResult(splitAmount) {
-    resultDiv.innerText = `Each person owes: $${splitAmount}`;
+    resultDiv.innerText = `Each person owes: ₹${splitAmount}`;
 }
